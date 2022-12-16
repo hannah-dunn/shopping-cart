@@ -10,23 +10,6 @@
   <script src="script.js"></script>
   </head>
   <body>
-    <form name="ShoppingList">
-      <fieldset>
-          <legend>Shopping cart</legend>
-          <label>Item: <input type="text" name="name"></label>
-          <label>Quantity: <input type="text" name="data"></label>
-  
-          <input type="button" value="Save"   onclick="SaveItem()">
-          <input type="button" value="Update" onclick="ModifyItem()">
-          <input type="button" value="Delete" onclick="RemoveItem()">
-      </fieldset>
-      <div id="items_table">
-          <h2>Shopping List</h2>
-          <table id="list"></table>
-          <label><input type="button" value="Clear" onclick="ClearAll()">
-          * Delete all items</label>
-      </div>
-  </form>
   <div class="Cart-Container">
     <div class="Header">
       <h3 class="Heading">Shopping Cart</h3>
@@ -34,7 +17,92 @@
     </div>
     <div class="Cart-Items">
       <div class="image-box">
-        <img src="./src/daisy.jpg" style={{ height=”120px” }} />
+        <img src="./src/daisy.jpg" style= "height: 120px" />
+      </div>
+      <div class="about">
+        <h1 class="title">Daisy</h1>
+        <h3 class="subtitle">35(m)</h3>
+        <img src="src/daisy.jpg" style="height: 30px" />
+      </div>
+      <div class="counter"></div>
+      <div class="prices"></div>
+      
+      <div class="counter">
+        <div class="btn">+</div>
+        <div class="count">2</div>
+        <div class="btn">-</div>
+      </div>
+      <div class="prices">
+        <div class="amount">$34.99</div>
+        <div class="save"><u>Save for later</u></div>
+        <div class="remove"><u>Remove</u></div>
+      </div>
+    </div>
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="src/kevin.jpg" style= "height: 120px" />
+        </div>
+        <div class="about">
+          <h1 class="title">Kevin</h1>
+          <h3 class="subtitle">41(m)</h3>
+          <img src="src/kevin.jpg" style="height: 30px" />
+        </div>
+        <div class="counter"></div>
+        <div class="prices"></div>
+        <div class="counter">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount">$34.99</div>
+          <div class="save"><u>Save for later</u></div>
+          <div class="remove"><u>Remove</u></div>
+        </div>
+      </div>
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="src/kyle.jpg" style= "height: 120px" />
+        </div>
+        <div class="about">
+          <h1 class="title">Kyle</h1>
+          <h3 class="subtitle">47(f)</h3>
+          <img src="src/kyle.jpg" style="height: 30px" />
+        </div>
+        <div class="counter"></div>
+        <div class="prices"></div>
+        <div class="counter">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount">$34.99</div>
+          <div class="save"><u>Save for later</u></div>
+          <div class="remove"><u>Remove</u></div>
+        </div>
+      </div>
+      <div class="Cart-Items">
+        <div class="image-box">
+          <img src="src/sue.jpg" style= "height: 120px" />
+        </div>
+        <div class="about">
+          <h1 class="title">Sue</h1>
+          <h3 class="subtitle">66(m)</h3>
+          <img src="src/sue.jpg" style="height: 30px" />
+        </div>
+        <div class="counter"></div>
+        <div class="prices"></div>
+        <div class="counter">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount">$34.99</div>
+          <div class="save"><u>Save for later</u></div>
+          <div class="remove"><u>Remove</u></div>
+        </div>
       </div>
     </div>
   </div>
