@@ -27,3 +27,15 @@ locally
 b. Discussion of technologies used - Make a list of the
 technologies you used including frameworks and libraries.
 3. A section describing the requirements and how you met them.
+
+
+# SETUP INSTRUCTIONS
+
+Hit up environments and find that github deployment baby
+
+# Technology Discussion
+
+HTML
+CSS
+JavaScript
+Favicon
